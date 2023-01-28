@@ -930,7 +930,7 @@ footer .card9 .icons img {
   margin-left: -650px;
 }
 
-@media (max-width: 447px) {
+@media (min-width: 991px) and (max-width: 1200px) {
   header {
     width: 100%;
     display: flex;
@@ -940,16 +940,18 @@ footer .card9 .icons img {
     padding-left: 20px;
   }
   header ul {
-    display: none;
+    display: flex;
   }
   header form .b1 {
-    display: none;
+    display: block;
   }
   header form .b2 {
-    display: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
   }
   header article {
-    display: block;
+    display: none;
     padding-right: 20px;
     font-size: 20px;
   }
@@ -957,68 +959,71 @@ footer .card9 .icons img {
     width: 100%;
   }
   .wrapper .p1 {
-    font-size: 8px;
-    top: 120px;
+    font-size: 15px;
+    top: 250px;
     left: 25px;
   }
   .wrapper h1 {
-    font-size: 20px;
-    top: 145px;
+    font-size: 32px;
+    top: 280px;
     left: 25px;
-    width: 200px;
-    line-height: 25px;
+    width: 240px;
+    line-height: 30px;
   }
   .wrapper .p2 {
-    font-size: 10px;
-    top: 200px;
+    font-size: 17px;
+    top: 350px;
     left: 25px;
-    width: 300px;
-    line-height: 15px;
+    width: 420px;
+    line-height: 20px;
   }
   .wrapper2 {
     width: 100%;
   }
   .wrapper2 .shape {
-    margin-left: 100px;
+    margin-left: 750px;
   }
   .wrapper2 .shape2 {
-    margin-top: -200px;
+    margin-top: -250px;
+    margin-left: 100px;
   }
   .wrapper2 .wrap1 {
     display: flex;
-    flex-wrap: wrap;
   }
   .wrapper2 .wrap1 img {
     width: 500px;
-    margin-top: -100px;
-    margin-left: -85px;
+    margin-top: -150px;
+    padding-left: 50px;
   }
   .wrapper2 .wrap1 .cards .p1 {
-    font-size: 12px;
-    text-align: center;
-    margin-top: -150px;
+    font-size: 17px;
+    margin-left: -100px;
   }
   .wrapper2 .wrap1 .cards h1 {
-    font-size: 27px;
-    text-align: center;
+    font-size: 32px;
+    margin-left: -100px;
   }
   .wrapper2 .wrap1 .cards .p2 {
-    font-size: 13px;
-    text-align: center;
-    margin-left: 25px;
+    font-size: 15px;
+    width: 400px;
+    margin-left: -100px;
   }
   .wrapper2 .wrap1 .cards a {
     text-align: center;
     display: block;
+    margin-left: -430px;
   }
   .wrapper2 .wrap1 .cards a img {
-    display: none;
+    display: block;
+    width: 30px;
+    margin-left: 395px;
+    margin-top: -14px;
   }
   .wrapper3 {
     width: 100%;
   }
   .wrapper3 .shape2 {
-    margin-left: 40px;
+    margin-left: 790px;
     width: 400px;
     height: 400px;
   }
@@ -1027,38 +1032,49 @@ footer .card9 .icons img {
     height: 400px;
   }
   .wrapper3 .p1 {
-    font-size: 12px;
+    font-size: 17px;
   }
   .wrapper3 h1 {
-    font-size: 27px;
+    font-size: 32px;
   }
   .wrapper3 .p2 {
-    font-size: 13px;
-    margin-left: 45px;
-    width: 350px;
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
   }
   .wrapper3 .wrap2 {
-    display: block;
-    margin-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding-left: 0px;
+    gap: 20px;
+  }
+  .wrapper3 .wrap2 .card1 {
+    width: 380px;
+  }
+  .wrapper3 .wrap2 .card1 img {
+    padding-left: 160px;
   }
   .wrapper4 {
     width: 100%;
   }
   .wrapper4 .cards2 .p1 {
-    font-size: 12px;
+    font-size: 17px;
     text-align: center;
   }
   .wrapper4 .cards2 h1 {
-    font-size: 27px;
+    font-size: 32px;
     text-align: center;
   }
   .wrapper4 .cards2 .p2 {
-    font-size: 13px;
-    margin-left: 50px;
-    width: 350px;
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
   }
   .wrapper4 .wrap3 {
-    margin-left: 35px;
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
   }
   .wrapper4 .link {
     display: block;
@@ -1066,81 +1082,83 @@ footer .card9 .icons img {
     padding-left: 0;
   }
   .wrapper4 .link img {
-    display: none;
+    display: block;
+    margin-left: 665px;
+    margin-top: -15px;
   }
   .wrapper5 {
     width: 100%;
   }
   .wrapper5 img {
     width: 100%;
-    height: 300px;
+    height: 500px;
     margin-top: -20px;
   }
   .wrapper5 .links {
-    top: 220px;
-    left: 120px;
-    width: 200px;
+    top: 420px;
+    left: 580px;
+    width: 600px;
   }
   .wrapper5 .links img {
     margin-top: 5px;
     display: flex;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 10px;
   }
   .wrapper5 .links a {
-    display: none;
+    display: block;
   }
   .wrapper6 {
     width: 100%;
   }
   .wrapper6 .content2 .p1 {
-    font-size: 12px;
+    font-size: 17px;
     text-align: center;
   }
   .wrapper6 .content2 h1 {
-    font-size: 27px;
+    font-size: 32px;
     text-align: center;
   }
   .wrapper6 .content2 .p2 {
-    font-size: 13px;
-    margin-left: 45px;
-    width: 350px;
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
   }
   .wrapper6 .content2 button {
     margin-left: 0;
-    font-size: 13px;
+    font-size: 17px;
     padding: 8px 16px;
-    margin-left: 175px;
+    margin-left: 540px;
   }
   .wrapper7 {
     width: 100%;
   }
   .wrapper7 .p1 {
-    font-size: 12px;
+    font-size: 17px;
     text-align: center;
     padding-left: 0;
   }
   .wrapper7 h1 {
-    font-size: 27px;
+    font-size: 32px;
     text-align: center;
     padding-left: 0;
   }
   .wrapper7 .p2 {
-    font-size: 13px;
-    margin-left: 45px;
-    width: 350px;
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
     text-align: center;
   }
   .wrapper7 .wrap4 {
-    display: block;
-    margin-left: 25px;
+    display: flex;
+    margin-left: 30px;
   }
   .wrapper7 .wrap4 .card3 img {
-    width: 400px;
+    width: 550px;
   }
   .wrapper7 .wrap4 .card3 p {
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 20px;
+    line-height: 20px;
     margin-top: 5px;
     padding-left: 10px;
     margin-bottom: 100px;
@@ -1151,10 +1169,12 @@ footer .card9 .icons img {
     align-items: center;
   }
   .wrapper7 .wrap5 .card44 {
-    margin-top: -800px;
+    margin-top: -130px;
+    margin-left: 0px;
   }
   .wrapper7 .wrap5 .card444 {
-    margin-top: -190px;
+    margin-top: -130px;
+    margin-left: 27 0px;
   }
   .wrapper7 .wrap5 .card4 img {
     margin-left: -140px;
@@ -1174,74 +1194,85 @@ footer .card9 .icons img {
     margin-left: 0px;
   }
   .wrapper7 a {
-    margin-left: -510px;
+    margin-left: -180px;
   }
   .wrapper7 a img {
-    display: none;
+    display: block;
+    margin-left: 640px;
+    margin-top: -14px;
   }
   .wrapper7 .wrap6 {
     width: 100%;
-    display: block;
+    display: flex;
     margin-top: 30px;
   }
   .wrapper7 .wrap6 .card5 img {
     width: 450px;
     height: 450px;
+    margin-left: 100px;
     padding-left: 0;
-    background-color: blue;
   }
   .wrapper7 .wrap6 .card6 {
-    margin-top: -200px;
+    margin-top: -50px;
+    margin-left: 70px;
   }
   .wrapper7 .wrap6 .card6 .p1 {
-    font-size: 10px;
-    text-align: center;
+    font-size: 17px;
+    padding-left: 0;
   }
   .wrapper7 .wrap6 .card6 h1 {
-    font-size: 27px;
-    text-align: center;
-    margin-left: 0px;
-    width: 448px;
+    font-size: 32px;
+    width: 500px;
+    margin-left: 50px;
   }
   .wrapper7 .wrap6 .card6 .p2 {
-    font-size: 13px;
+    font-size: 16px;
+    width: 400px;
+    margin-left: 100px;
+  }
+  .wrapper7 .wrap6 .card6 a {
+    display: block;
     text-align: center;
-    width: 350px;
+    margin-left: -710px;
+    margin-bottom: 50px;
+  }
+  .wrapper7 .wrap6 .card6 a img {
+    margin-left: 340px;
   }
   footer {
     width: 100%;
   }
   footer img {
-    padding-left: 150px;
+    padding-left: 500px;
     padding-top: 25px;
   }
   footer .wrap7 {
     display: flex;
     flex-wrap: wrap;
-  }
-  footer .wrap7 .card77 {
-    margin-left: 100px;
+    align-items: baseline;
   }
   footer .wrap7 .card7 {
     padding-left: 70px;
   }
   footer .wrap7 .card8 {
-    margin-top: 20px;
-    margin-left: 0;
+    margin-top: 50px;
+    margin-left: 0px;
   }
   footer .wrap7 .card8 .p1 {
-    font-size: 12px;
+    font-size: 17px;
     text-align: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
   }
   footer .wrap7 .card8 .p2 {
-    font-size: 13px;
+    font-size: 15px;
     width: 350px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 220px;
   }
   footer .wrap7 .card8 input {
-    padding-right: 150px;
-    margin-left: 50px;
+    padding-right: 200px;
+    margin-left: 200px;
   }
   footer .wrap7 .card8 button {
     margin-left: -80px;
@@ -1253,11 +1284,387 @@ footer .card9 .icons img {
   footer .card9 .p3 {
     margin-left: 10px;
   }
+  footer .card9 .icons {
+    display: none;
+  }
   footer .card9 .icons2 {
     display: flex;
+    margin-top: 50px;
+    align-items: center;
+    padding-right: 50px;
+    gap: 30px;
   }
   footer .card9 .icons2 img {
+    margin-left: -500px;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .logo {
+    padding-left: 20px;
+  }
+  header ul {
+    display: flex;
+  }
+  header form .b1 {
+    display: block;
+  }
+  header form .b2 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  header article {
+    display: none;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .p1 {
+    font-size: 15px;
+    top: 170px;
+    left: 25px;
+  }
+  .wrapper h1 {
+    font-size: 32px;
+    top: 200px;
+    left: 25px;
+    width: 240px;
+    line-height: 30px;
+  }
+  .wrapper .p2 {
+    font-size: 17px;
+    top: 265px;
+    left: 25px;
+    width: 420px;
+    line-height: 20px;
+  }
+  .wrapper2 {
+    width: 100%;
+  }
+  .wrapper2 .shape {
+    margin-left: 750px;
+  }
+  .wrapper2 .shape2 {
+    margin-top: -250px;
+    margin-left: 100px;
+  }
+  .wrapper2 .wrap1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapper2 .wrap1 img {
+    width: 900px;
+    margin-top: -150px;
+    margin-left: -25px;
+  }
+  .wrapper2 .wrap1 .cards .p1 {
+    font-size: 17px;
+    text-align: center;
+    margin-top: -150px;
+    padding-left: 250px;
+  }
+  .wrapper2 .wrap1 .cards h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-left: 250px;
+  }
+  .wrapper2 .wrap1 .cards .p2 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 240px;
+    width: 500px;
+  }
+  .wrapper2 .wrap1 .cards a {
+    text-align: center;
+    display: block;
+    margin-left: 200px;
+  }
+  .wrapper2 .wrap1 .cards a img {
+    display: block;
+    width: 140px;
+    margin-left: 190px;
+    margin-top: -14px;
+  }
+  .wrapper3 {
+    width: 100%;
+  }
+  .wrapper3 .shape2 {
+    margin-left: 590px;
+    width: 400px;
+    height: 400px;
+  }
+  .wrapper3 .shape3 {
+    width: 450px;
+    height: 400px;
+  }
+  .wrapper3 .p1 {
+    font-size: 17px;
+  }
+  .wrapper3 h1 {
+    font-size: 32px;
+  }
+  .wrapper3 .p2 {
+    font-size: 15px;
+    margin-left: 290px;
+    width: 400px;
+  }
+  .wrapper3 .wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding-left: 0px;
+    gap: 0;
+  }
+  .wrapper3 .wrap2 .card1 {
+    width: 330px;
+  }
+  .wrapper3 .wrap2 .card1 img {
+    padding-left: 140px;
+  }
+  .wrapper4 {
+    width: 100%;
+  }
+  .wrapper4 .cards2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 .p2 {
+    font-size: 15px;
+    margin-left: 290px;
+    width: 400px;
+  }
+  .wrapper4 .wrap3 {
+    margin-left: 80px;
+    display: flex;
+    gap: 50px;
+  }
+  .wrapper4 .link {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper4 .link img {
+    display: block;
+    margin-left: 560px;
+    margin-top: -15px;
+  }
+  .wrapper5 {
+    width: 100%;
+  }
+  .wrapper5 img {
+    width: 100%;
+    height: 300px;
+    margin-top: -20px;
+  }
+  .wrapper5 .links {
+    top: 220px;
+    left: 380px;
+    width: 600px;
+  }
+  .wrapper5 .links img {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .wrapper5 .links a {
+    display: block;
+  }
+  .wrapper6 {
+    width: 100%;
+  }
+  .wrapper6 .content2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper6 .content2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper6 .content2 .p2 {
+    font-size: 15px;
+    margin-left: 290px;
+    width: 400px;
+  }
+  .wrapper6 .content2 button {
+    margin-left: 0;
+    font-size: 17px;
+    padding: 8px 16px;
+    margin-left: 440px;
+  }
+  .wrapper7 {
+    width: 100%;
+  }
+  .wrapper7 .p1 {
+    font-size: 17px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 .p2 {
+    font-size: 15px;
+    margin-left: 290px;
+    width: 400px;
+    text-align: center;
+  }
+  .wrapper7 .wrap4 {
+    display: flex;
+    margin-left: 30px;
+  }
+  .wrapper7 .wrap4 .card3 img {
+    width: 460px;
+  }
+  .wrapper7 .wrap4 .card3 p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+  }
+  .wrapper7 .wrap5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper7 .wrap5 .card44 {
+    margin-top: -130px;
+    margin-left: 0px;
+  }
+  .wrapper7 .wrap5 .card444 {
+    margin-top: -130px;
+    margin-left: 180px;
+  }
+  .wrapper7 .wrap5 .card4 img {
+    margin-left: -140px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap5 .card4 .text {
     margin-left: -80px;
+    margin-right: 90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p1 {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: -90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p2 {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  .wrapper7 a {
+    margin-left: -250px;
+  }
+  .wrapper7 a img {
+    display: block;
+    margin-left: 570px;
+    margin-top: -14px;
+  }
+  .wrapper7 .wrap6 {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+  }
+  .wrapper7 .wrap6 .card5 img {
+    width: 550px;
+    height: 550px;
+    margin-left: 230px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap6 .card6 {
+    margin-top: -200px;
+  }
+  .wrapper7 .wrap6 .card6 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper7 .wrap6 .card6 h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-left: 240px;
+    width: 500px;
+  }
+  .wrapper7 .wrap6 .card6 .p2 {
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+    margin-left: 240px;
+  }
+  .wrapper7 .wrap6 .card6 a {
+    display: block;
+    text-align: center;
+    margin-left: -710px;
+    margin-bottom: 50px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer img {
+    padding-left: 400px;
+    padding-top: 25px;
+  }
+  footer .wrap7 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .wrap7 .card7 {
+    padding-left: 160px;
+  }
+  footer .wrap7 .card8 {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  footer .wrap7 .card8 .p1 {
+    font-size: 17px;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+  footer .wrap7 .card8 .p2 {
+    font-size: 15px;
+    width: 350px;
+    text-align: center;
+    margin-left: 220px;
+  }
+  footer .wrap7 .card8 input {
+    padding-right: 200px;
+    margin-left: 200px;
+  }
+  footer .wrap7 .card8 button {
+    margin-left: -80px;
+  }
+  footer .card9 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .card9 .p3 {
+    margin-left: 10px;
+  }
+  footer .card9 .icons {
+    display: none;
+  }
+  footer .card9 .icons2 {
+    display: flex;
+    margin-left: -500px;
+    margin-top: 50px;
+    align-items: center;
+  }
+  footer .card9 .icons2 img {
+    margin-left: -500px;
   }
 }
 @media (min-width: 448px) and (max-width: 769px) {
@@ -1639,7 +2046,7 @@ footer .card9 .icons img {
     margin-left: -200px;
   }
 }
-@media (min-width: 770px) and (max-width: 990px) {
+@media (max-width: 447px) {
   header {
     width: 100%;
     display: flex;
@@ -1649,18 +2056,16 @@ footer .card9 .icons img {
     padding-left: 20px;
   }
   header ul {
-    display: flex;
+    display: none;
   }
   header form .b1 {
-    display: block;
+    display: none;
   }
   header form .b2 {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
+    display: none;
   }
   header article {
-    display: none;
+    display: block;
     padding-right: 20px;
     font-size: 20px;
   }
@@ -1668,76 +2073,68 @@ footer .card9 .icons img {
     width: 100%;
   }
   .wrapper .p1 {
-    font-size: 15px;
-    top: 170px;
+    font-size: 8px;
+    top: 120px;
     left: 25px;
   }
   .wrapper h1 {
-    font-size: 32px;
-    top: 200px;
+    font-size: 20px;
+    top: 145px;
     left: 25px;
-    width: 240px;
-    line-height: 30px;
+    width: 200px;
+    line-height: 25px;
   }
   .wrapper .p2 {
-    font-size: 17px;
-    top: 265px;
+    font-size: 10px;
+    top: 200px;
     left: 25px;
-    width: 420px;
-    line-height: 20px;
+    width: 300px;
+    line-height: 15px;
   }
   .wrapper2 {
     width: 100%;
   }
   .wrapper2 .shape {
-    margin-left: 750px;
+    margin-left: 100px;
   }
   .wrapper2 .shape2 {
-    margin-top: -250px;
-    margin-left: 100px;
+    margin-top: -200px;
   }
   .wrapper2 .wrap1 {
     display: flex;
     flex-wrap: wrap;
   }
   .wrapper2 .wrap1 img {
-    width: 900px;
-    margin-top: -150px;
-    margin-left: -25px;
+    width: 500px;
+    margin-top: -100px;
+    margin-left: -85px;
   }
   .wrapper2 .wrap1 .cards .p1 {
-    font-size: 17px;
+    font-size: 12px;
     text-align: center;
     margin-top: -150px;
-    padding-left: 250px;
   }
   .wrapper2 .wrap1 .cards h1 {
-    font-size: 32px;
+    font-size: 27px;
     text-align: center;
-    margin-left: 250px;
   }
   .wrapper2 .wrap1 .cards .p2 {
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
-    margin-left: 240px;
-    width: 500px;
+    margin-left: 25px;
   }
   .wrapper2 .wrap1 .cards a {
     text-align: center;
     display: block;
-    margin-left: 200px;
   }
   .wrapper2 .wrap1 .cards a img {
-    display: block;
-    width: 140px;
-    margin-left: 190px;
-    margin-top: -14px;
+    display: none;
   }
   .wrapper3 {
     width: 100%;
   }
   .wrapper3 .shape2 {
-    margin-left: 590px;
+    margin-left: 40px;
     width: 400px;
     height: 400px;
   }
@@ -1746,49 +2143,38 @@ footer .card9 .icons img {
     height: 400px;
   }
   .wrapper3 .p1 {
-    font-size: 17px;
+    font-size: 12px;
   }
   .wrapper3 h1 {
-    font-size: 32px;
+    font-size: 27px;
   }
   .wrapper3 .p2 {
-    font-size: 15px;
-    margin-left: 290px;
-    width: 400px;
+    font-size: 13px;
+    margin-left: 45px;
+    width: 350px;
   }
   .wrapper3 .wrap2 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0px;
-    padding-left: 0px;
-    gap: 0;
-  }
-  .wrapper3 .wrap2 .card1 {
-    width: 330px;
-  }
-  .wrapper3 .wrap2 .card1 img {
-    padding-left: 140px;
+    display: block;
+    margin-left: 35px;
   }
   .wrapper4 {
     width: 100%;
   }
   .wrapper4 .cards2 .p1 {
-    font-size: 17px;
+    font-size: 12px;
     text-align: center;
   }
   .wrapper4 .cards2 h1 {
-    font-size: 32px;
+    font-size: 27px;
     text-align: center;
   }
   .wrapper4 .cards2 .p2 {
-    font-size: 15px;
-    margin-left: 290px;
-    width: 400px;
+    font-size: 13px;
+    margin-left: 50px;
+    width: 350px;
   }
   .wrapper4 .wrap3 {
-    margin-left: 80px;
-    display: flex;
-    gap: 50px;
+    margin-left: 35px;
   }
   .wrapper4 .link {
     display: block;
@@ -1796,9 +2182,7 @@ footer .card9 .icons img {
     padding-left: 0;
   }
   .wrapper4 .link img {
-    display: block;
-    margin-left: 560px;
-    margin-top: -15px;
+    display: none;
   }
   .wrapper5 {
     width: 100%;
@@ -1810,433 +2194,69 @@ footer .card9 .icons img {
   }
   .wrapper5 .links {
     top: 220px;
-    left: 380px;
-    width: 600px;
+    left: 120px;
+    width: 200px;
   }
   .wrapper5 .links img {
     margin-top: 5px;
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .wrapper5 .links a {
-    display: block;
+    display: none;
   }
   .wrapper6 {
     width: 100%;
   }
   .wrapper6 .content2 .p1 {
-    font-size: 17px;
+    font-size: 12px;
     text-align: center;
   }
   .wrapper6 .content2 h1 {
-    font-size: 32px;
+    font-size: 27px;
     text-align: center;
   }
   .wrapper6 .content2 .p2 {
-    font-size: 15px;
-    margin-left: 290px;
-    width: 400px;
+    font-size: 13px;
+    margin-left: 45px;
+    width: 350px;
   }
   .wrapper6 .content2 button {
     margin-left: 0;
-    font-size: 17px;
+    font-size: 13px;
     padding: 8px 16px;
-    margin-left: 440px;
+    margin-left: 175px;
   }
   .wrapper7 {
     width: 100%;
   }
   .wrapper7 .p1 {
-    font-size: 17px;
+    font-size: 12px;
     text-align: center;
     padding-left: 0;
   }
   .wrapper7 h1 {
-    font-size: 32px;
+    font-size: 27px;
     text-align: center;
     padding-left: 0;
   }
   .wrapper7 .p2 {
-    font-size: 15px;
-    margin-left: 290px;
-    width: 400px;
-    text-align: center;
-  }
-  .wrapper7 .wrap4 {
-    display: flex;
-    margin-left: 30px;
-  }
-  .wrapper7 .wrap4 .card3 img {
-    width: 460px;
-  }
-  .wrapper7 .wrap4 .card3 p {
-    font-size: 20px;
-    line-height: 20px;
-    margin-top: 5px;
-    padding-left: 10px;
-    margin-bottom: 100px;
-  }
-  .wrapper7 .wrap5 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .wrapper7 .wrap5 .card44 {
-    margin-top: -130px;
-    margin-left: 0px;
-  }
-  .wrapper7 .wrap5 .card444 {
-    margin-top: -130px;
-    margin-left: 180px;
-  }
-  .wrapper7 .wrap5 .card4 img {
-    margin-left: -140px;
-    padding-left: 0;
-  }
-  .wrapper7 .wrap5 .card4 .text {
-    margin-left: -80px;
-    margin-right: 90px;
-  }
-  .wrapper7 .wrap5 .card4 .text .p1 {
-    font-size: 12px;
-    margin-left: 0px;
-    margin-top: -90px;
-  }
-  .wrapper7 .wrap5 .card4 .text .p2 {
-    font-size: 12px;
-    margin-left: 0px;
-  }
-  .wrapper7 a {
-    margin-left: -250px;
-  }
-  .wrapper7 a img {
-    display: block;
-    margin-left: 570px;
-    margin-top: -14px;
-  }
-  .wrapper7 .wrap6 {
-    width: 100%;
-    display: block;
-    margin-top: 30px;
-  }
-  .wrapper7 .wrap6 .card5 img {
-    width: 550px;
-    height: 550px;
-    margin-left: 230px;
-    padding-left: 0;
-  }
-  .wrapper7 .wrap6 .card6 {
-    margin-top: -200px;
-  }
-  .wrapper7 .wrap6 .card6 .p1 {
-    font-size: 17px;
-    text-align: center;
-  }
-  .wrapper7 .wrap6 .card6 h1 {
-    font-size: 32px;
-    text-align: center;
-    margin-left: 240px;
-    width: 500px;
-  }
-  .wrapper7 .wrap6 .card6 .p2 {
-    font-size: 16px;
-    text-align: center;
-    width: 500px;
-    margin-left: 240px;
-  }
-  .wrapper7 .wrap6 .card6 a {
-    display: block;
-    text-align: center;
-    margin-left: -710px;
-    margin-bottom: 50px;
-  }
-  footer {
-    width: 100%;
-  }
-  footer img {
-    padding-left: 400px;
-    padding-top: 25px;
-  }
-  footer .wrap7 {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  footer .wrap7 .card7 {
-    padding-left: 160px;
-  }
-  footer .wrap7 .card8 {
-    margin-top: 50px;
-    margin-left: 100px;
-  }
-  footer .wrap7 .card8 .p1 {
-    font-size: 17px;
-    text-align: center;
-    margin-left: 200px;
-    margin-bottom: 10px;
-  }
-  footer .wrap7 .card8 .p2 {
-    font-size: 15px;
+    font-size: 13px;
+    margin-left: 45px;
     width: 350px;
     text-align: center;
-    margin-left: 220px;
-  }
-  footer .wrap7 .card8 input {
-    padding-right: 200px;
-    margin-left: 200px;
-  }
-  footer .wrap7 .card8 button {
-    margin-left: -80px;
-  }
-  footer .card9 {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  footer .card9 .p3 {
-    margin-left: 10px;
-  }
-  footer .card9 .icons {
-    display: none;
-  }
-  footer .card9 .icons2 {
-    display: flex;
-    margin-left: -500px;
-    margin-top: 50px;
-    align-items: center;
-  }
-  footer .card9 .icons2 img {
-    margin-left: -500px;
-  }
-}
-@media (min-width: 991px) and (max-width: 1200px) {
-  header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  header .logo {
-    padding-left: 20px;
-  }
-  header ul {
-    display: flex;
-  }
-  header form .b1 {
-    display: block;
-  }
-  header form .b2 {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-  }
-  header article {
-    display: none;
-    padding-right: 20px;
-    font-size: 20px;
-  }
-  .wrapper {
-    width: 100%;
-  }
-  .wrapper .p1 {
-    font-size: 15px;
-    top: 250px;
-    left: 25px;
-  }
-  .wrapper h1 {
-    font-size: 32px;
-    top: 280px;
-    left: 25px;
-    width: 240px;
-    line-height: 30px;
-  }
-  .wrapper .p2 {
-    font-size: 17px;
-    top: 350px;
-    left: 25px;
-    width: 420px;
-    line-height: 20px;
-  }
-  .wrapper2 {
-    width: 100%;
-  }
-  .wrapper2 .shape {
-    margin-left: 750px;
-  }
-  .wrapper2 .shape2 {
-    margin-top: -250px;
-    margin-left: 100px;
-  }
-  .wrapper2 .wrap1 {
-    display: flex;
-  }
-  .wrapper2 .wrap1 img {
-    width: 500px;
-    margin-top: -150px;
-    padding-left: 50px;
-  }
-  .wrapper2 .wrap1 .cards .p1 {
-    font-size: 17px;
-    margin-left: -100px;
-  }
-  .wrapper2 .wrap1 .cards h1 {
-    font-size: 32px;
-    margin-left: -100px;
-  }
-  .wrapper2 .wrap1 .cards .p2 {
-    font-size: 15px;
-    width: 400px;
-    margin-left: -100px;
-  }
-  .wrapper2 .wrap1 .cards a {
-    text-align: center;
-    display: block;
-    margin-left: -430px;
-  }
-  .wrapper2 .wrap1 .cards a img {
-    display: block;
-    width: 30px;
-    margin-left: 395px;
-    margin-top: -14px;
-  }
-  .wrapper3 {
-    width: 100%;
-  }
-  .wrapper3 .shape2 {
-    margin-left: 790px;
-    width: 400px;
-    height: 400px;
-  }
-  .wrapper3 .shape3 {
-    width: 450px;
-    height: 400px;
-  }
-  .wrapper3 .p1 {
-    font-size: 17px;
-  }
-  .wrapper3 h1 {
-    font-size: 32px;
-  }
-  .wrapper3 .p2 {
-    font-size: 15px;
-    margin-left: 390px;
-    width: 400px;
-  }
-  .wrapper3 .wrap2 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0px;
-    padding-left: 0px;
-    gap: 20px;
-  }
-  .wrapper3 .wrap2 .card1 {
-    width: 380px;
-  }
-  .wrapper3 .wrap2 .card1 img {
-    padding-left: 160px;
-  }
-  .wrapper4 {
-    width: 100%;
-  }
-  .wrapper4 .cards2 .p1 {
-    font-size: 17px;
-    text-align: center;
-  }
-  .wrapper4 .cards2 h1 {
-    font-size: 32px;
-    text-align: center;
-  }
-  .wrapper4 .cards2 .p2 {
-    font-size: 15px;
-    margin-left: 390px;
-    width: 400px;
-  }
-  .wrapper4 .wrap3 {
-    margin-left: 15px;
-    display: flex;
-    gap: 20px;
-  }
-  .wrapper4 .link {
-    display: block;
-    text-align: center;
-    padding-left: 0;
-  }
-  .wrapper4 .link img {
-    display: block;
-    margin-left: 665px;
-    margin-top: -15px;
-  }
-  .wrapper5 {
-    width: 100%;
-  }
-  .wrapper5 img {
-    width: 100%;
-    height: 500px;
-    margin-top: -20px;
-  }
-  .wrapper5 .links {
-    top: 420px;
-    left: 580px;
-    width: 600px;
-  }
-  .wrapper5 .links img {
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-  }
-  .wrapper5 .links a {
-    display: block;
-  }
-  .wrapper6 {
-    width: 100%;
-  }
-  .wrapper6 .content2 .p1 {
-    font-size: 17px;
-    text-align: center;
-  }
-  .wrapper6 .content2 h1 {
-    font-size: 32px;
-    text-align: center;
-  }
-  .wrapper6 .content2 .p2 {
-    font-size: 15px;
-    margin-left: 390px;
-    width: 400px;
-  }
-  .wrapper6 .content2 button {
-    margin-left: 0;
-    font-size: 17px;
-    padding: 8px 16px;
-    margin-left: 540px;
-  }
-  .wrapper7 {
-    width: 100%;
-  }
-  .wrapper7 .p1 {
-    font-size: 17px;
-    text-align: center;
-    padding-left: 0;
-  }
-  .wrapper7 h1 {
-    font-size: 32px;
-    text-align: center;
-    padding-left: 0;
-  }
-  .wrapper7 .p2 {
-    font-size: 15px;
-    margin-left: 390px;
-    width: 400px;
-    text-align: center;
   }
   .wrapper7 .wrap4 {
-    display: flex;
-    margin-left: 30px;
+    display: block;
+    margin-left: 25px;
   }
   .wrapper7 .wrap4 .card3 img {
-    width: 550px;
+    width: 400px;
   }
   .wrapper7 .wrap4 .card3 p {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 17px;
     margin-top: 5px;
     padding-left: 10px;
     margin-bottom: 100px;
@@ -2247,12 +2267,10 @@ footer .card9 .icons img {
     align-items: center;
   }
   .wrapper7 .wrap5 .card44 {
-    margin-top: -130px;
-    margin-left: 0px;
+    margin-top: -800px;
   }
   .wrapper7 .wrap5 .card444 {
-    margin-top: -130px;
-    margin-left: 27 0px;
+    margin-top: -190px;
   }
   .wrapper7 .wrap5 .card4 img {
     margin-left: -140px;
@@ -2272,85 +2290,74 @@ footer .card9 .icons img {
     margin-left: 0px;
   }
   .wrapper7 a {
-    margin-left: -180px;
+    margin-left: -510px;
   }
   .wrapper7 a img {
-    display: block;
-    margin-left: 640px;
-    margin-top: -14px;
+    display: none;
   }
   .wrapper7 .wrap6 {
     width: 100%;
-    display: flex;
+    display: block;
     margin-top: 30px;
   }
   .wrapper7 .wrap6 .card5 img {
     width: 450px;
     height: 450px;
-    margin-left: 100px;
     padding-left: 0;
+    background-color: blue;
   }
   .wrapper7 .wrap6 .card6 {
-    margin-top: -50px;
-    margin-left: 70px;
+    margin-top: -200px;
   }
   .wrapper7 .wrap6 .card6 .p1 {
-    font-size: 17px;
-    padding-left: 0;
+    font-size: 10px;
+    text-align: center;
   }
   .wrapper7 .wrap6 .card6 h1 {
-    font-size: 32px;
-    width: 500px;
-    margin-left: 50px;
+    font-size: 27px;
+    text-align: center;
+    margin-left: 0px;
+    width: 448px;
   }
   .wrapper7 .wrap6 .card6 .p2 {
-    font-size: 16px;
-    width: 400px;
-    margin-left: 100px;
-  }
-  .wrapper7 .wrap6 .card6 a {
-    display: block;
+    font-size: 13px;
     text-align: center;
-    margin-left: -710px;
-    margin-bottom: 50px;
-  }
-  .wrapper7 .wrap6 .card6 a img {
-    margin-left: 340px;
+    width: 350px;
   }
   footer {
     width: 100%;
   }
   footer img {
-    padding-left: 500px;
+    padding-left: 150px;
     padding-top: 25px;
   }
   footer .wrap7 {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+  }
+  footer .wrap7 .card77 {
+    margin-left: 100px;
   }
   footer .wrap7 .card7 {
     padding-left: 70px;
   }
   footer .wrap7 .card8 {
-    margin-top: 50px;
-    margin-left: 0px;
+    margin-top: 20px;
+    margin-left: 0;
   }
   footer .wrap7 .card8 .p1 {
-    font-size: 17px;
+    font-size: 12px;
     text-align: center;
-    margin-left: 200px;
-    margin-bottom: 10px;
   }
   footer .wrap7 .card8 .p2 {
-    font-size: 15px;
+    font-size: 13px;
     width: 350px;
     text-align: center;
-    margin-left: 220px;
+    margin-left: 50px;
   }
   footer .wrap7 .card8 input {
-    padding-right: 200px;
-    margin-left: 200px;
+    padding-right: 150px;
+    margin-left: 50px;
   }
   footer .wrap7 .card8 button {
     margin-left: -80px;
@@ -2362,17 +2369,10 @@ footer .card9 .icons img {
   footer .card9 .p3 {
     margin-left: 10px;
   }
-  footer .card9 .icons {
-    display: none;
-  }
   footer .card9 .icons2 {
     display: flex;
-    margin-top: 50px;
-    align-items: center;
-    padding-right: 50px;
-    gap: 30px;
   }
   footer .card9 .icons2 img {
-    margin-left: -500px;
+    margin-left: -80px;
   }
 }/*# sourceMappingURL=style.css.map */

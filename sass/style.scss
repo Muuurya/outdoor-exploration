@@ -943,7 +943,7 @@ footer {
     }
   }
 }
-@media (max-width: 447px) {
+@media (min-width: 991px) and (max-width: 1200px) {
   header {
     width: 100%;
     display: flex;
@@ -952,18 +952,20 @@ footer {
       padding-left: 20px;
     }
     ul {
-      display: none;
+      display: flex;
     }
     form {
       .b1 {
-        display: none;
+        display: block;
       }
       .b2 {
-        display: none;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
       }
     }
     article {
-      display: block;
+      display: none;
       padding-right: 20px;
       font-size: 20px;
     }
@@ -971,61 +973,64 @@ footer {
   .wrapper {
     width: 100%;
     .p1 {
-      font-size: 8px;
-      top: 120px;
+      font-size: 15px;
+      top: 250px;
       left: 25px;
     }
     h1 {
-      font-size: 20px;
-      top: 145px;
+      font-size: 32px;
+      top: 280px;
       left: 25px;
-      width: 200px;
-      line-height: 25px;
+      width: 240px;
+      line-height: 30px;
     }
     .p2 {
-      font-size: 10px;
-      top: 200px;
+      font-size: 17px;
+      top: 350px;
       left: 25px;
-      width: 300px;
-      line-height: 15px;
+      width: 420px;
+      line-height: 20px;
     }
   }
   .wrapper2 {
     width: 100%;
     .shape {
-      margin-left: 100px;
+      margin-left: 750px;
     }
     .shape2 {
-      margin-top: -200px;
+      margin-top: -250px;
+      margin-left: 100px;
     }
     .wrap1 {
       display: flex;
-      flex-wrap: wrap;
       img {
         width: 500px;
-        margin-top: -100px;
-        margin-left: -85px;
+        margin-top: -150px;
+        padding-left: 50px;
       }
       .cards {
         .p1 {
-          font-size: 12px;
-          text-align: center;
-          margin-top: -150px;
+          font-size: 17px;
+          margin-left: -100px;
         }
         h1 {
-          font-size: 27px;
-          text-align: center;
+          font-size: 32px;
+          margin-left: -100px;
         }
         .p2 {
-          font-size: 13px;
-          text-align: center;
-          margin-left: 25px;
+          font-size: 15px;
+          width: 400px;
+          margin-left: -100px;
         }
         a {
           text-align: center;
           display: block;
+          margin-left: -430px;
           img {
-            display: none;
+            display: block;
+            width: 30px;
+            margin-left: 395px;
+            margin-top: -14px;
           }
         }
       }
@@ -1034,7 +1039,7 @@ footer {
   .wrapper3 {
     width: 100%;
     .shape2 {
-      margin-left: 40px;
+      margin-left: 790px;
       width: 400px;
       height: 400px;
     }
@@ -1043,47 +1048,60 @@ footer {
       height: 400px;
     }
     .p1 {
-      font-size: 12px;
+      font-size: 17px;
     }
     h1 {
-      font-size: 27px;
+      font-size: 32px;
     }
     .p2 {
-      font-size: 13px;
-      margin-left: 45px;
-      width: 350px;
+      font-size: 15px;
+      margin-left: 390px;
+      width: 400px;
     }
     .wrap2 {
-      display: block;
-      margin-left: 35px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0px;
+      padding-left: 0px;
+      gap: 20px;
+      .card1 {
+        width: 380px;
+        img {
+          padding-left: 160px;
+        }
+      }
     }
   }
   .wrapper4 {
     width: 100%;
     .cards2 {
       .p1 {
-        font-size: 12px;
+        font-size: 17px;
         text-align: center;
       }
       h1 {
-        font-size: 27px;
+        font-size: 32px;
         text-align: center;
       }
       .p2 {
-        font-size: 13px;
-        margin-left: 50px;
-        width: 350px;
+        font-size: 15px;
+        margin-left: 390px;
+        width: 400px;
       }
     }
     .wrap3 {
-      margin-left: 35px;
+      margin-left: 15px;
+      display: flex;
+      gap: 20px;
     }
     .link {
       display: block;
       text-align: center;
       padding-left: 0;
       img {
-        display: none;
+        display: block;
+        margin-left: 665px;
+        margin-top: -15px;
       }
     }
   }
@@ -1091,21 +1109,21 @@ footer {
     width: 100%;
     img {
       width: 100%;
-      height: 300px;
+      height: 500px;
       margin-top: -20px;
     }
     .links {
-      top: 220px;
-      left: 120px;
-      width: 200px;
+      top: 420px;
+      left: 580px;
+      width: 600px;
       img {
         margin-top: 5px;
         display: flex;
         align-items: center;
-        margin-left: 15px;
+        margin-left: 10px;
       }
       a {
-        display: none;
+        display: block;
       }
     }
   }
@@ -1113,54 +1131,54 @@ footer {
     width: 100%;
     .content2 {
       .p1 {
-        font-size: 12px;
+        font-size: 17px;
         text-align: center;
       }
       h1 {
-        font-size: 27px;
+        font-size: 32px;
         text-align: center;
       }
       .p2 {
-        font-size: 13px;
-        margin-left: 45px;
-        width: 350px;
+        font-size: 15px;
+        margin-left: 390px;
+        width: 400px;
       }
       button {
         margin-left: 0;
-        font-size: 13px;
+        font-size: 17px;
         padding: 8px 16px;
-        margin-left: 175px;
+        margin-left: 540px;
       }
     }
   }
   .wrapper7 {
     width: 100%;
     .p1 {
-      font-size: 12px;
+      font-size: 17px;
       text-align: center;
       padding-left: 0;
     }
     h1 {
-      font-size: 27px;
+      font-size: 32px;
       text-align: center;
       padding-left: 0;
     }
     .p2 {
-      font-size: 13px;
-      margin-left: 45px;
-      width: 350px;
+      font-size: 15px;
+      margin-left: 390px;
+      width: 400px;
       text-align: center;
     }
     .wrap4 {
-      display: block;
-      margin-left: 25px;
+      display: flex;
+      margin-left: 30px;
       .card3 {
         img {
-          width: 400px;
+          width: 550px;
         }
         p {
-          font-size: 15px;
-          line-height: 17px;
+          font-size: 20px;
+          line-height: 20px;
           margin-top: 5px;
           padding-left: 10px;
           margin-bottom: 100px;
@@ -1172,10 +1190,12 @@ footer {
       flex-wrap: wrap;
       align-items: center;
       .card44 {
-        margin-top: -800px;
+        margin-top: -130px;
+        margin-left: 0px;
       }
       .card444 {
-        margin-top: -190px;
+        margin-top: -130px;
+        margin-left: 27 0px;
       }
       .card4 {
         img {
@@ -1198,39 +1218,50 @@ footer {
       }
     }
     a {
-      margin-left: -510px;
+      margin-left: -180px;
       img {
-        display: none;
+        display: block;
+        margin-left: 640px;
+        margin-top: -14px;
       }
     }
     .wrap6 {
       width: 100%;
-      display: block;
+      display: flex;
       margin-top: 30px;
       .card5 {
         img {
           width: 450px;
           height: 450px;
+          margin-left: 100px;
           padding-left: 0;
-          background-color: blue;
         }
       }
       .card6 {
-        margin-top: -200px;
+        margin-top: -50px;
+        margin-left: 70px;
         .p1 {
-          font-size: 10px;
-          text-align: center;
+          font-size: 17px;
+          padding-left: 0;
         }
         h1 {
-          font-size: 27px;
-          text-align: center;
-          margin-left: 0px;
-          width: 448px;
+          font-size: 32px;
+          width: 500px;
+          margin-left: 50px;
         }
         .p2 {
-          font-size: 13px;
+          font-size: 16px;
+          width: 400px;
+          margin-left: 100px;
+        }
+        a {
+          display: block;
           text-align: center;
-          width: 350px;
+          margin-left: -710px;
+          margin-bottom: 50px;
+          img {
+            margin-left: 340px;
+          }
         }
       }
     }
@@ -1238,34 +1269,34 @@ footer {
   footer {
     width: 100%;
     img {
-      padding-left: 150px;
+      padding-left: 500px;
       padding-top: 25px;
     }
     .wrap7 {
       display: flex;
       flex-wrap: wrap;
-      .card77 {
-        margin-left: 100px;
-      }
+      align-items: baseline;
       .card7 {
         padding-left: 70px;
       }
       .card8 {
-        margin-top: 20px;
-        margin-left: 0;
+        margin-top: 50px;
+        margin-left: 0px;
         .p1 {
-          font-size: 12px;
+          font-size: 17px;
           text-align: center;
+          margin-left: 200px;
+          margin-bottom: 10px;
         }
         .p2 {
-          font-size: 13px;
+          font-size: 15px;
           width: 350px;
           text-align: center;
-          margin-left: 50px;
+          margin-left: 220px;
         }
         input {
-          padding-right: 150px;
-          margin-left: 50px;
+          padding-right: 200px;
+          margin-left: 200px;
         }
         button {
           margin-left: -80px;
@@ -1278,10 +1309,400 @@ footer {
       .p3 {
         margin-left: 10px;
       }
+      .icons {
+        display: none;
+      }
       .icons2 {
         display: flex;
+        margin-top: 50px;
+        align-items: center;
+        padding-right: 50px;
+        gap: 30px;
         img {
+          margin-left: -500px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      padding-left: 20px;
+    }
+    ul {
+      display: flex;
+    }
+    form {
+      .b1 {
+        display: block;
+      }
+      .b2 {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+      }
+    }
+    article {
+      display: none;
+      padding-right: 20px;
+      font-size: 20px;
+    }
+  }
+  .wrapper {
+    width: 100%;
+    .p1 {
+      font-size: 15px;
+      top: 170px;
+      left: 25px;
+    }
+    h1 {
+      font-size: 32px;
+      top: 200px;
+      left: 25px;
+      width: 240px;
+      line-height: 30px;
+    }
+    .p2 {
+      font-size: 17px;
+      top: 265px;
+      left: 25px;
+      width: 420px;
+      line-height: 20px;
+    }
+  }
+  .wrapper2 {
+    width: 100%;
+    .shape {
+      margin-left: 750px;
+    }
+    .shape2 {
+      margin-top: -250px;
+      margin-left: 100px;
+    }
+    .wrap1 {
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        width: 900px;
+        margin-top: -150px;
+        margin-left: -25px;
+      }
+      .cards {
+        .p1 {
+          font-size: 17px;
+          text-align: center;
+          margin-top: -150px;
+          padding-left: 250px;
+        }
+        h1 {
+          font-size: 32px;
+          text-align: center;
+          margin-left: 250px;
+        }
+        .p2 {
+          font-size: 15px;
+          text-align: center;
+          margin-left: 240px;
+          width: 500px;
+        }
+        a {
+          text-align: center;
+          display: block;
+          margin-left: 200px;
+          img {
+            display: block;
+            width: 140px;
+            margin-left: 190px;
+            margin-top: -14px;
+          }
+        }
+      }
+    }
+  }
+  .wrapper3 {
+    width: 100%;
+    .shape2 {
+      margin-left: 590px;
+      width: 400px;
+      height: 400px;
+    }
+    .shape3 {
+      width: 450px;
+      height: 400px;
+    }
+    .p1 {
+      font-size: 17px;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    .p2 {
+      font-size: 15px;
+      margin-left: 290px;
+      width: 400px;
+    }
+    .wrap2 {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0px;
+      padding-left: 0px;
+      gap: 0;
+      .card1 {
+        width: 330px;
+        img {
+          padding-left: 140px;
+        }
+      }
+    }
+  }
+  .wrapper4 {
+    width: 100%;
+    .cards2 {
+      .p1 {
+        font-size: 17px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 32px;
+        text-align: center;
+      }
+      .p2 {
+        font-size: 15px;
+        margin-left: 290px;
+        width: 400px;
+      }
+    }
+    .wrap3 {
+      margin-left: 80px;
+      display: flex;
+      gap: 50px;
+    }
+    .link {
+      display: block;
+      text-align: center;
+      padding-left: 0;
+      img {
+        display: block;
+        margin-left: 560px;
+        margin-top: -15px;
+      }
+    }
+  }
+  .wrapper5 {
+    width: 100%;
+    img {
+      width: 100%;
+      height: 300px;
+      margin-top: -20px;
+    }
+    .links {
+      top: 220px;
+      left: 380px;
+      width: 600px;
+      img {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+      }
+      a {
+        display: block;
+      }
+    }
+  }
+  .wrapper6 {
+    width: 100%;
+    .content2 {
+      .p1 {
+        font-size: 17px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 32px;
+        text-align: center;
+      }
+      .p2 {
+        font-size: 15px;
+        margin-left: 290px;
+        width: 400px;
+      }
+      button {
+        margin-left: 0;
+        font-size: 17px;
+        padding: 8px 16px;
+        margin-left: 440px;
+      }
+    }
+  }
+  .wrapper7 {
+    width: 100%;
+    .p1 {
+      font-size: 17px;
+      text-align: center;
+      padding-left: 0;
+    }
+    h1 {
+      font-size: 32px;
+      text-align: center;
+      padding-left: 0;
+    }
+    .p2 {
+      font-size: 15px;
+      margin-left: 290px;
+      width: 400px;
+      text-align: center;
+    }
+    .wrap4 {
+      display: flex;
+      margin-left: 30px;
+      .card3 {
+        img {
+          width: 460px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 20px;
+          margin-top: 5px;
+          padding-left: 10px;
+          margin-bottom: 100px;
+        }
+      }
+    }
+    .wrap5 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      .card44 {
+        margin-top: -130px;
+        margin-left: 0px;
+      }
+      .card444 {
+        margin-top: -130px;
+        margin-left: 180px;
+      }
+      .card4 {
+        img {
+          margin-left: -140px;
+          padding-left: 0;
+        }
+        .text {
           margin-left: -80px;
+          margin-right: 90px;
+          .p1 {
+            font-size: 12px;
+            margin-left: 0px;
+            margin-top: -90px;
+          }
+          .p2 {
+            font-size: 12px;
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+    a {
+      margin-left: -250px;
+      img {
+        display: block;
+        margin-left: 570px;
+        margin-top: -14px;
+      }
+    }
+    .wrap6 {
+      width: 100%;
+      display: block;
+      margin-top: 30px;
+      .card5 {
+        img {
+          width: 550px;
+          height: 550px;
+          margin-left: 230px;
+          padding-left: 0;
+        }
+      }
+      .card6 {
+        margin-top: -200px;
+        .p1 {
+          font-size: 17px;
+          text-align: center;
+        }
+        h1 {
+          font-size: 32px;
+          text-align: center;
+          margin-left: 240px;
+          width: 500px;
+        }
+        .p2 {
+          font-size: 16px;
+          text-align: center;
+          width: 500px;
+          margin-left: 240px;
+        }
+        a {
+          display: block;
+          text-align: center;
+          margin-left: -710px;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+  footer {
+    width: 100%;
+    img {
+      padding-left: 400px;
+      padding-top: 25px;
+    }
+    .wrap7 {
+      display: flex;
+      flex-wrap: wrap;
+      .card7 {
+        padding-left: 160px;
+      }
+      .card8 {
+        margin-top: 50px;
+        margin-left: 100px;
+        .p1 {
+          font-size: 17px;
+          text-align: center;
+          margin-left: 200px;
+          margin-bottom: 10px;
+        }
+        .p2 {
+          font-size: 15px;
+          width: 350px;
+          text-align: center;
+          margin-left: 220px;
+        }
+        input {
+          padding-right: 200px;
+          margin-left: 200px;
+        }
+        button {
+          margin-left: -80px;
+        }
+      }
+    }
+    .card9 {
+      display: flex;
+      flex-wrap: wrap;
+      .p3 {
+        margin-left: 10px;
+      }
+      .icons {
+        display: none;
+      }
+      .icons2 {
+        display: flex;
+        margin-left: -500px;
+        margin-top: 50px;
+        align-items: center;
+        img {
+          margin-left: -500px;
         }
       }
     }
@@ -1682,7 +2103,7 @@ footer {
     }
   }
 }
-@media (min-width: 770px) and (max-width: 990px) {
+@media (max-width: 447px) {
   header {
     width: 100%;
     display: flex;
@@ -1691,20 +2112,18 @@ footer {
       padding-left: 20px;
     }
     ul {
-      display: flex;
+      display: none;
     }
     form {
       .b1 {
-        display: block;
+        display: none;
       }
       .b2 {
-        display: flex;
-        align-items: center;
-        margin-right: 20px;
+        display: none;
       }
     }
     article {
-      display: none;
+      display: block;
       padding-right: 20px;
       font-size: 20px;
     }
@@ -1712,69 +2131,61 @@ footer {
   .wrapper {
     width: 100%;
     .p1 {
-      font-size: 15px;
-      top: 170px;
+      font-size: 8px;
+      top: 120px;
       left: 25px;
     }
     h1 {
-      font-size: 32px;
-      top: 200px;
+      font-size: 20px;
+      top: 145px;
       left: 25px;
-      width: 240px;
-      line-height: 30px;
+      width: 200px;
+      line-height: 25px;
     }
     .p2 {
-      font-size: 17px;
-      top: 265px;
+      font-size: 10px;
+      top: 200px;
       left: 25px;
-      width: 420px;
-      line-height: 20px;
+      width: 300px;
+      line-height: 15px;
     }
   }
   .wrapper2 {
     width: 100%;
     .shape {
-      margin-left: 750px;
+      margin-left: 100px;
     }
     .shape2 {
-      margin-top: -250px;
-      margin-left: 100px;
+      margin-top: -200px;
     }
     .wrap1 {
       display: flex;
       flex-wrap: wrap;
       img {
-        width: 900px;
-        margin-top: -150px;
-        margin-left: -25px;
+        width: 500px;
+        margin-top: -100px;
+        margin-left: -85px;
       }
       .cards {
         .p1 {
-          font-size: 17px;
+          font-size: 12px;
           text-align: center;
           margin-top: -150px;
-          padding-left: 250px;
         }
         h1 {
-          font-size: 32px;
+          font-size: 27px;
           text-align: center;
-          margin-left: 250px;
         }
         .p2 {
-          font-size: 15px;
+          font-size: 13px;
           text-align: center;
-          margin-left: 240px;
-          width: 500px;
+          margin-left: 25px;
         }
         a {
           text-align: center;
           display: block;
-          margin-left: 200px;
           img {
-            display: block;
-            width: 140px;
-            margin-left: 190px;
-            margin-top: -14px;
+            display: none;
           }
         }
       }
@@ -1783,7 +2194,7 @@ footer {
   .wrapper3 {
     width: 100%;
     .shape2 {
-      margin-left: 590px;
+      margin-left: 40px;
       width: 400px;
       height: 400px;
     }
@@ -1792,60 +2203,47 @@ footer {
       height: 400px;
     }
     .p1 {
-      font-size: 17px;
+      font-size: 12px;
     }
     h1 {
-      font-size: 32px;
+      font-size: 27px;
     }
     .p2 {
-      font-size: 15px;
-      margin-left: 290px;
-      width: 400px;
+      font-size: 13px;
+      margin-left: 45px;
+      width: 350px;
     }
     .wrap2 {
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 0px;
-      padding-left: 0px;
-      gap: 0;
-      .card1 {
-        width: 330px;
-        img {
-          padding-left: 140px;
-        }
-      }
+      display: block;
+      margin-left: 35px;
     }
   }
   .wrapper4 {
     width: 100%;
     .cards2 {
       .p1 {
-        font-size: 17px;
+        font-size: 12px;
         text-align: center;
       }
       h1 {
-        font-size: 32px;
+        font-size: 27px;
         text-align: center;
       }
       .p2 {
-        font-size: 15px;
-        margin-left: 290px;
-        width: 400px;
+        font-size: 13px;
+        margin-left: 50px;
+        width: 350px;
       }
     }
     .wrap3 {
-      margin-left: 80px;
-      display: flex;
-      gap: 50px;
+      margin-left: 35px;
     }
     .link {
       display: block;
       text-align: center;
       padding-left: 0;
       img {
-        display: block;
-        margin-left: 560px;
-        margin-top: -15px;
+        display: none;
       }
     }
   }
@@ -1858,449 +2256,71 @@ footer {
     }
     .links {
       top: 220px;
-      left: 380px;
-      width: 600px;
+      left: 120px;
+      width: 200px;
       img {
         margin-top: 5px;
         display: flex;
         align-items: center;
-        margin-left: 10px;
+        margin-left: 15px;
       }
       a {
-        display: block;
-      }
-    }
-  }
-  .wrapper6 {
-    width: 100%;
-    .content2 {
-      .p1 {
-        font-size: 17px;
-        text-align: center;
-      }
-      h1 {
-        font-size: 32px;
-        text-align: center;
-      }
-      .p2 {
-        font-size: 15px;
-        margin-left: 290px;
-        width: 400px;
-      }
-      button {
-        margin-left: 0;
-        font-size: 17px;
-        padding: 8px 16px;
-        margin-left: 440px;
-      }
-    }
-  }
-  .wrapper7 {
-    width: 100%;
-    .p1 {
-      font-size: 17px;
-      text-align: center;
-      padding-left: 0;
-    }
-    h1 {
-      font-size: 32px;
-      text-align: center;
-      padding-left: 0;
-    }
-    .p2 {
-      font-size: 15px;
-      margin-left: 290px;
-      width: 400px;
-      text-align: center;
-    }
-    .wrap4 {
-      display: flex;
-      margin-left: 30px;
-      .card3 {
-        img {
-          width: 460px;
-        }
-        p {
-          font-size: 20px;
-          line-height: 20px;
-          margin-top: 5px;
-          padding-left: 10px;
-          margin-bottom: 100px;
-        }
-      }
-    }
-    .wrap5 {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      .card44 {
-        margin-top: -130px;
-        margin-left: 0px;
-      }
-      .card444 {
-        margin-top: -130px;
-        margin-left: 180px;
-      }
-      .card4 {
-        img {
-          margin-left: -140px;
-          padding-left: 0;
-        }
-        .text {
-          margin-left: -80px;
-          margin-right: 90px;
-          .p1 {
-            font-size: 12px;
-            margin-left: 0px;
-            margin-top: -90px;
-          }
-          .p2 {
-            font-size: 12px;
-            margin-left: 0px;
-          }
-        }
-      }
-    }
-    a {
-      margin-left: -250px;
-      img {
-        display: block;
-        margin-left: 570px;
-        margin-top: -14px;
-      }
-    }
-    .wrap6 {
-      width: 100%;
-      display: block;
-      margin-top: 30px;
-      .card5 {
-        img {
-          width: 550px;
-          height: 550px;
-          margin-left: 230px;
-          padding-left: 0;
-        }
-      }
-      .card6 {
-        margin-top: -200px;
-        .p1 {
-          font-size: 17px;
-          text-align: center;
-        }
-        h1 {
-          font-size: 32px;
-          text-align: center;
-          margin-left: 240px;
-          width: 500px;
-        }
-        .p2 {
-          font-size: 16px;
-          text-align: center;
-          width: 500px;
-          margin-left: 240px;
-        }
-        a {
-          display: block;
-          text-align: center;
-          margin-left: -710px;
-          margin-bottom: 50px;
-        }
-      }
-    }
-  }
-  footer {
-    width: 100%;
-    img {
-      padding-left: 400px;
-      padding-top: 25px;
-    }
-    .wrap7 {
-      display: flex;
-      flex-wrap: wrap;
-      .card7 {
-        padding-left: 160px;
-      }
-      .card8 {
-        margin-top: 50px;
-        margin-left: 100px;
-        .p1 {
-          font-size: 17px;
-          text-align: center;
-          margin-left: 200px;
-          margin-bottom: 10px;
-        }
-        .p2 {
-          font-size: 15px;
-          width: 350px;
-          text-align: center;
-          margin-left: 220px;
-        }
-        input {
-          padding-right: 200px;
-          margin-left: 200px;
-        }
-        button {
-          margin-left: -80px;
-        }
-      }
-    }
-    .card9 {
-      display: flex;
-      flex-wrap: wrap;
-      .p3 {
-        margin-left: 10px;
-      }
-      .icons {
         display: none;
       }
-      .icons2 {
-        display: flex;
-        margin-left: -500px;
-        margin-top: 50px;
-        align-items: center;
-        img {
-          margin-left: -500px;
-        }
-      }
-    }
-  }
-}
-@media (min-width: 991px) and (max-width: 1200px) {
-  header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    .logo {
-      padding-left: 20px;
-    }
-    ul {
-      display: flex;
-    }
-    form {
-      .b1 {
-        display: block;
-      }
-      .b2 {
-        display: flex;
-        align-items: center;
-        margin-right: 20px;
-      }
-    }
-    article {
-      display: none;
-      padding-right: 20px;
-      font-size: 20px;
-    }
-  }
-  .wrapper {
-    width: 100%;
-    .p1 {
-      font-size: 15px;
-      top: 250px;
-      left: 25px;
-    }
-    h1 {
-      font-size: 32px;
-      top: 280px;
-      left: 25px;
-      width: 240px;
-      line-height: 30px;
-    }
-    .p2 {
-      font-size: 17px;
-      top: 350px;
-      left: 25px;
-      width: 420px;
-      line-height: 20px;
-    }
-  }
-  .wrapper2 {
-    width: 100%;
-    .shape {
-      margin-left: 750px;
-    }
-    .shape2 {
-      margin-top: -250px;
-      margin-left: 100px;
-    }
-    .wrap1 {
-      display: flex;
-      img {
-        width: 500px;
-        margin-top: -150px;
-        padding-left: 50px;
-      }
-      .cards {
-        .p1 {
-          font-size: 17px;
-          margin-left: -100px;
-        }
-        h1 {
-          font-size: 32px;
-          margin-left: -100px;
-        }
-        .p2 {
-          font-size: 15px;
-          width: 400px;
-          margin-left: -100px;
-        }
-        a {
-          text-align: center;
-          display: block;
-          margin-left: -430px;
-          img {
-            display: block;
-            width: 30px;
-            margin-left: 395px;
-            margin-top: -14px;
-          }
-        }
-      }
-    }
-  }
-  .wrapper3 {
-    width: 100%;
-    .shape2 {
-      margin-left: 790px;
-      width: 400px;
-      height: 400px;
-    }
-    .shape3 {
-      width: 450px;
-      height: 400px;
-    }
-    .p1 {
-      font-size: 17px;
-    }
-    h1 {
-      font-size: 32px;
-    }
-    .p2 {
-      font-size: 15px;
-      margin-left: 390px;
-      width: 400px;
-    }
-    .wrap2 {
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 0px;
-      padding-left: 0px;
-      gap: 20px;
-      .card1 {
-        width: 380px;
-        img {
-          padding-left: 160px;
-        }
-      }
-    }
-  }
-  .wrapper4 {
-    width: 100%;
-    .cards2 {
-      .p1 {
-        font-size: 17px;
-        text-align: center;
-      }
-      h1 {
-        font-size: 32px;
-        text-align: center;
-      }
-      .p2 {
-        font-size: 15px;
-        margin-left: 390px;
-        width: 400px;
-      }
-    }
-    .wrap3 {
-      margin-left: 15px;
-      display: flex;
-      gap: 20px;
-    }
-    .link {
-      display: block;
-      text-align: center;
-      padding-left: 0;
-      img {
-        display: block;
-        margin-left: 665px;
-        margin-top: -15px;
-      }
-    }
-  }
-  .wrapper5 {
-    width: 100%;
-    img {
-      width: 100%;
-      height: 500px;
-      margin-top: -20px;
-    }
-    .links {
-      top: 420px;
-      left: 580px;
-      width: 600px;
-      img {
-        margin-top: 5px;
-        display: flex;
-        align-items: center;
-        margin-left: 10px;
-      }
-      a {
-        display: block;
-      }
     }
   }
   .wrapper6 {
     width: 100%;
     .content2 {
       .p1 {
-        font-size: 17px;
+        font-size: 12px;
         text-align: center;
       }
       h1 {
-        font-size: 32px;
+        font-size: 27px;
         text-align: center;
       }
       .p2 {
-        font-size: 15px;
-        margin-left: 390px;
-        width: 400px;
+        font-size: 13px;
+        margin-left: 45px;
+        width: 350px;
       }
       button {
         margin-left: 0;
-        font-size: 17px;
+        font-size: 13px;
         padding: 8px 16px;
-        margin-left: 540px;
+        margin-left: 175px;
       }
     }
   }
   .wrapper7 {
     width: 100%;
     .p1 {
-      font-size: 17px;
+      font-size: 12px;
       text-align: center;
       padding-left: 0;
     }
     h1 {
-      font-size: 32px;
+      font-size: 27px;
       text-align: center;
       padding-left: 0;
     }
     .p2 {
-      font-size: 15px;
-      margin-left: 390px;
-      width: 400px;
+      font-size: 13px;
+      margin-left: 45px;
+      width: 350px;
       text-align: center;
     }
     .wrap4 {
-      display: flex;
-      margin-left: 30px;
+      display: block;
+      margin-left: 25px;
       .card3 {
         img {
-          width: 550px;
+          width: 400px;
         }
         p {
-          font-size: 20px;
-          line-height: 20px;
+          font-size: 15px;
+          line-height: 17px;
           margin-top: 5px;
           padding-left: 10px;
           margin-bottom: 100px;
@@ -2312,12 +2332,10 @@ footer {
       flex-wrap: wrap;
       align-items: center;
       .card44 {
-        margin-top: -130px;
-        margin-left: 0px;
+        margin-top: -800px;
       }
       .card444 {
-        margin-top: -130px;
-        margin-left: 27 0px;
+        margin-top: -190px;
       }
       .card4 {
         img {
@@ -2340,50 +2358,39 @@ footer {
       }
     }
     a {
-      margin-left: -180px;
+      margin-left: -510px;
       img {
-        display: block;
-        margin-left: 640px;
-        margin-top: -14px;
+        display: none;
       }
     }
     .wrap6 {
       width: 100%;
-      display: flex;
+      display: block;
       margin-top: 30px;
       .card5 {
         img {
           width: 450px;
           height: 450px;
-          margin-left: 100px;
           padding-left: 0;
+          background-color: blue;
         }
       }
       .card6 {
-        margin-top: -50px;
-        margin-left: 70px;
+        margin-top: -200px;
         .p1 {
-          font-size: 17px;
-          padding-left: 0;
+          font-size: 10px;
+          text-align: center;
         }
         h1 {
-          font-size: 32px;
-          width: 500px;
-          margin-left: 50px;
+          font-size: 27px;
+          text-align: center;
+          margin-left: 0px;
+          width: 448px;
         }
         .p2 {
-          font-size: 16px;
-          width: 400px;
-          margin-left: 100px;
-        }
-        a {
-          display: block;
+          font-size: 13px;
           text-align: center;
-          margin-left: -710px;
-          margin-bottom: 50px;
-          img {
-            margin-left: 340px;
-          }
+          width: 350px;
         }
       }
     }
@@ -2391,34 +2398,34 @@ footer {
   footer {
     width: 100%;
     img {
-      padding-left: 500px;
+      padding-left: 150px;
       padding-top: 25px;
     }
     .wrap7 {
       display: flex;
       flex-wrap: wrap;
-      align-items: baseline;
+      .card77 {
+        margin-left: 100px;
+      }
       .card7 {
         padding-left: 70px;
       }
       .card8 {
-        margin-top: 50px;
-        margin-left: 0px;
+        margin-top: 20px;
+        margin-left: 0;
         .p1 {
-          font-size: 17px;
+          font-size: 12px;
           text-align: center;
-          margin-left: 200px;
-          margin-bottom: 10px;
         }
         .p2 {
-          font-size: 15px;
+          font-size: 13px;
           width: 350px;
           text-align: center;
-          margin-left: 220px;
+          margin-left: 50px;
         }
         input {
-          padding-right: 200px;
-          margin-left: 200px;
+          padding-right: 150px;
+          margin-left: 50px;
         }
         button {
           margin-left: -80px;
@@ -2431,17 +2438,10 @@ footer {
       .p3 {
         margin-left: 10px;
       }
-      .icons {
-        display: none;
-      }
       .icons2 {
         display: flex;
-        margin-top: 50px;
-        align-items: center;
-        padding-right: 50px;
-        gap: 30px;
         img {
-          margin-left: -500px;
+          margin-left: -80px;
         }
       }
     }
