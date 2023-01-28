@@ -1259,4 +1259,1488 @@ footer .card9 .icons img {
   footer .card9 .icons2 img {
     margin-left: -80px;
   }
+}
+@media (min-width: 448px) and (max-width: 769px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .logo {
+    padding-left: 20px;
+  }
+  header ul {
+    display: none;
+  }
+  header form .b1 {
+    display: none;
+  }
+  header form .b2 {
+    display: none;
+  }
+  header article {
+    display: block;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .p1 {
+    font-size: 13px;
+    top: 170px;
+    left: 25px;
+  }
+  .wrapper h1 {
+    font-size: 30px;
+    top: 195px;
+    left: 25px;
+    width: 220px;
+    line-height: 25px;
+  }
+  .wrapper .p2 {
+    font-size: 15px;
+    top: 250px;
+    left: 25px;
+    width: 400px;
+    line-height: 15px;
+  }
+  .wrapper2 {
+    width: 100%;
+  }
+  .wrapper2 .shape {
+    margin-left: 550px;
+  }
+  .wrapper2 .shape2 {
+    margin-top: -200px;
+  }
+  .wrapper2 .wrap1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapper2 .wrap1 img {
+    width: 800px;
+    margin-top: -150px;
+    margin-left: -75px;
+  }
+  .wrapper2 .wrap1 .cards .p1 {
+    font-size: 17px;
+    text-align: center;
+    margin-top: -150px;
+    padding-left: 150px;
+  }
+  .wrapper2 .wrap1 .cards h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-left: 150px;
+  }
+  .wrapper2 .wrap1 .cards .p2 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 130px;
+    width: 500px;
+  }
+  .wrapper2 .wrap1 .cards a {
+    text-align: center;
+    display: block;
+    margin-left: 100px;
+  }
+  .wrapper2 .wrap1 .cards a img {
+    display: block;
+    width: 140px;
+    margin-left: 190px;
+    margin-top: -14px;
+  }
+  .wrapper3 {
+    width: 100%;
+  }
+  .wrapper3 .shape2 {
+    margin-left: 367px;
+    width: 400px;
+    height: 400px;
+  }
+  .wrapper3 .shape3 {
+    width: 450px;
+    height: 400px;
+  }
+  .wrapper3 .p1 {
+    font-size: 17px;
+  }
+  .wrapper3 h1 {
+    font-size: 32px;
+  }
+  .wrapper3 .p2 {
+    font-size: 15px;
+    margin-left: 190px;
+    width: 400px;
+  }
+  .wrapper3 .wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+  .wrapper3 .wrap2 .card1 {
+    width: 365px;
+  }
+  .wrapper3 .wrap2 .card1 img {
+    padding-left: 150px;
+  }
+  .wrapper4 {
+    width: 100%;
+  }
+  .wrapper4 .cards2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 .p2 {
+    font-size: 15px;
+    margin-left: 180px;
+    width: 400px;
+  }
+  .wrapper4 .wrap3 {
+    margin-left: 15px;
+  }
+  .wrapper4 .wrap3 .card2 .content {
+    width: 360px;
+  }
+  .wrapper4 .wrap3 .card2 .content2 {
+    width: 360px;
+  }
+  .wrapper4 .wrap3 .card2 .content3 {
+    width: 360px;
+  }
+  .wrapper4 .wrap3 .card2 .content4 {
+    width: 360px;
+  }
+  .wrapper4 .wrap3 .card2 .content5 {
+    width: 360px;
+  }
+  .wrapper4 .wrap3 .card2 .content6 {
+    width: 360px;
+  }
+  .wrapper4 .link {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper4 .link img {
+    display: block;
+    margin-left: 455px;
+    margin-top: -15px;
+  }
+  .wrapper5 {
+    width: 100%;
+  }
+  .wrapper5 img {
+    width: 100%;
+    height: 300px;
+    margin-top: -20px;
+  }
+  .wrapper5 .links {
+    top: 220px;
+    left: 150px;
+    width: 600px;
+  }
+  .wrapper5 .links img {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .wrapper5 .links a {
+    display: block;
+  }
+  .wrapper6 {
+    width: 100%;
+  }
+  .wrapper6 .content2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper6 .content2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper6 .content2 .p2 {
+    font-size: 15px;
+    margin-left: 180px;
+    width: 400px;
+  }
+  .wrapper6 .content2 button {
+    margin-left: 0;
+    font-size: 15px;
+    padding: 8px 16px;
+    margin-left: 330px;
+  }
+  .wrapper7 {
+    width: 100%;
+  }
+  .wrapper7 .p1 {
+    font-size: 17px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 .p2 {
+    font-size: 15px;
+    margin-left: 180px;
+    width: 400px;
+    text-align: center;
+  }
+  .wrapper7 .wrap4 {
+    display: block;
+    margin-left: 130px;
+  }
+  .wrapper7 .wrap4 .card3 img {
+    width: 500px;
+  }
+  .wrapper7 .wrap4 .card3 p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+  }
+  .wrapper7 .wrap5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper7 .wrap5 .card44 {
+    margin-top: -930px;
+    margin-left: 100px;
+  }
+  .wrapper7 .wrap5 .card444 {
+    margin-top: -190px;
+    margin-left: 100px;
+  }
+  .wrapper7 .wrap5 .card4 img {
+    margin-left: -140px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap5 .card4 .text {
+    margin-left: -80px;
+    margin-right: 90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p1 {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: -90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p2 {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  .wrapper7 a {
+    margin-left: -380px;
+  }
+  .wrapper7 a img {
+    display: block;
+    margin-left: 440px;
+    margin-top: -13px;
+  }
+  .wrapper7 .wrap6 {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+  }
+  .wrapper7 .wrap6 .card5 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 130px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap6 .card6 {
+    margin-top: -200px;
+  }
+  .wrapper7 .wrap6 .card6 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper7 .wrap6 .card6 h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-left: 140px;
+    width: 500px;
+  }
+  .wrapper7 .wrap6 .card6 .p2 {
+    font-size: 16px;
+    text-align: center;
+    width: 400px;
+    margin-left: 200px;
+  }
+  .wrapper7 .wrap6 .card6 a {
+    display: block;
+    text-align: center;
+    margin-left: -630px;
+    margin-bottom: 50px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer img {
+    padding-left: 300px;
+    padding-top: 25px;
+  }
+  footer .wrap7 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .wrap7 .card7 {
+    padding-left: 110px;
+  }
+  footer .wrap7 .card8 {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+  footer .wrap7 .card8 .p1 {
+    font-size: 17px;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+  footer .wrap7 .card8 .p2 {
+    font-size: 15px;
+    width: 350px;
+    text-align: center;
+    margin-left: 220px;
+  }
+  footer .wrap7 .card8 input {
+    padding-right: 200px;
+    margin-left: 200px;
+  }
+  footer .wrap7 .card8 button {
+    margin-left: -80px;
+  }
+  footer .card9 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .card9 .p3 {
+    margin-left: 170px;
+  }
+  footer .card9 .icons {
+    display: none;
+  }
+  footer .card9 .icons2 {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+  footer .card9 .icons2 img {
+    margin-left: -200px;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .logo {
+    padding-left: 20px;
+  }
+  header ul {
+    display: flex;
+  }
+  header form .b1 {
+    display: block;
+  }
+  header form .b2 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  header article {
+    display: none;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .p1 {
+    font-size: 15px;
+    top: 170px;
+    left: 25px;
+  }
+  .wrapper h1 {
+    font-size: 32px;
+    top: 200px;
+    left: 25px;
+    width: 240px;
+    line-height: 30px;
+  }
+  .wrapper .p2 {
+    font-size: 17px;
+    top: 265px;
+    left: 25px;
+    width: 420px;
+    line-height: 20px;
+  }
+  .wrapper2 {
+    width: 100%;
+  }
+  .wrapper2 .shape {
+    margin-left: 750px;
+  }
+  .wrapper2 .shape2 {
+    margin-top: -250px;
+    margin-left: 100px;
+  }
+  .wrapper2 .wrap1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapper2 .wrap1 img {
+    width: 900px;
+    margin-top: -150px;
+    margin-left: -25px;
+  }
+  .wrapper2 .wrap1 .cards .p1 {
+    font-size: 17px;
+    text-align: center;
+    margin-top: -150px;
+    padding-left: 250px;
+  }
+  .wrapper2 .wrap1 .cards h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-left: 250px;
+  }
+  .wrapper2 .wrap1 .cards .p2 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 240px;
+    width: 500px;
+  }
+  .wrapper2 .wrap1 .cards a {
+    text-align: center;
+    display: block;
+    margin-left: 200px;
+  }
+  .wrapper2 .wrap1 .cards a img {
+    display: block;
+    width: 140px;
+    margin-left: 190px;
+    margin-top: -14px;
+  }
+  .wrapper3 {
+    width: 100%;
+  }
+  .wrapper3 .shape2 {
+    margin-left: 590px;
+    width: 400px;
+    height: 400px;
+  }
+  .wrapper3 .shape3 {
+    width: 450px;
+    height: 400px;
+  }
+  .wrapper3 .p1 {
+    font-size: 17px;
+  }
+  .wrapper3 h1 {
+    font-size: 32px;
+  }
+  .wrapper3 .p2 {
+    font-size: 15px;
+    margin-left: 290px;
+    width: 400px;
+  }
+  .wrapper3 .wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding-left: 0px;
+    gap: 0;
+  }
+  .wrapper3 .wrap2 .card1 {
+    width: 330px;
+  }
+  .wrapper3 .wrap2 .card1 img {
+    padding-left: 140px;
+  }
+  .wrapper4 {
+    width: 100%;
+  }
+  .wrapper4 .cards2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 .p2 {
+    font-size: 15px;
+    margin-left: 290px;
+    width: 400px;
+  }
+  .wrapper4 .wrap3 {
+    margin-left: 80px;
+    display: flex;
+    gap: 50px;
+  }
+  .wrapper4 .link {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper4 .link img {
+    display: block;
+    margin-left: 560px;
+    margin-top: -15px;
+  }
+  .wrapper5 {
+    width: 100%;
+  }
+  .wrapper5 img {
+    width: 100%;
+    height: 300px;
+    margin-top: -20px;
+  }
+  .wrapper5 .links {
+    top: 220px;
+    left: 380px;
+    width: 600px;
+  }
+  .wrapper5 .links img {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .wrapper5 .links a {
+    display: block;
+  }
+  .wrapper6 {
+    width: 100%;
+  }
+  .wrapper6 .content2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper6 .content2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper6 .content2 .p2 {
+    font-size: 15px;
+    margin-left: 290px;
+    width: 400px;
+  }
+  .wrapper6 .content2 button {
+    margin-left: 0;
+    font-size: 17px;
+    padding: 8px 16px;
+    margin-left: 440px;
+  }
+  .wrapper7 {
+    width: 100%;
+  }
+  .wrapper7 .p1 {
+    font-size: 17px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 .p2 {
+    font-size: 15px;
+    margin-left: 290px;
+    width: 400px;
+    text-align: center;
+  }
+  .wrapper7 .wrap4 {
+    display: flex;
+    margin-left: 30px;
+  }
+  .wrapper7 .wrap4 .card3 img {
+    width: 460px;
+  }
+  .wrapper7 .wrap4 .card3 p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+  }
+  .wrapper7 .wrap5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper7 .wrap5 .card44 {
+    margin-top: -130px;
+    margin-left: 0px;
+  }
+  .wrapper7 .wrap5 .card444 {
+    margin-top: -130px;
+    margin-left: 180px;
+  }
+  .wrapper7 .wrap5 .card4 img {
+    margin-left: -140px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap5 .card4 .text {
+    margin-left: -80px;
+    margin-right: 90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p1 {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: -90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p2 {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  .wrapper7 a {
+    margin-left: -250px;
+  }
+  .wrapper7 a img {
+    display: block;
+    margin-left: 570px;
+    margin-top: -14px;
+  }
+  .wrapper7 .wrap6 {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+  }
+  .wrapper7 .wrap6 .card5 img {
+    width: 550px;
+    height: 550px;
+    margin-left: 230px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap6 .card6 {
+    margin-top: -200px;
+  }
+  .wrapper7 .wrap6 .card6 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper7 .wrap6 .card6 h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-left: 240px;
+    width: 500px;
+  }
+  .wrapper7 .wrap6 .card6 .p2 {
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+    margin-left: 240px;
+  }
+  .wrapper7 .wrap6 .card6 a {
+    display: block;
+    text-align: center;
+    margin-left: -710px;
+    margin-bottom: 50px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer img {
+    padding-left: 400px;
+    padding-top: 25px;
+  }
+  footer .wrap7 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .wrap7 .card7 {
+    padding-left: 160px;
+  }
+  footer .wrap7 .card8 {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  footer .wrap7 .card8 .p1 {
+    font-size: 17px;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+  footer .wrap7 .card8 .p2 {
+    font-size: 15px;
+    width: 350px;
+    text-align: center;
+    margin-left: 220px;
+  }
+  footer .wrap7 .card8 input {
+    padding-right: 200px;
+    margin-left: 200px;
+  }
+  footer .wrap7 .card8 button {
+    margin-left: -80px;
+  }
+  footer .card9 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .card9 .p3 {
+    margin-left: 10px;
+  }
+  footer .card9 .icons {
+    display: none;
+  }
+  footer .card9 .icons2 {
+    display: flex;
+    margin-left: -500px;
+    margin-top: 50px;
+    align-items: center;
+  }
+  footer .card9 .icons2 img {
+    margin-left: -500px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .logo {
+    padding-left: 20px;
+  }
+  header ul {
+    display: flex;
+  }
+  header form .b1 {
+    display: block;
+  }
+  header form .b2 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  header article {
+    display: none;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .p1 {
+    font-size: 15px;
+    top: 250px;
+    left: 25px;
+  }
+  .wrapper h1 {
+    font-size: 32px;
+    top: 280px;
+    left: 25px;
+    width: 240px;
+    line-height: 30px;
+  }
+  .wrapper .p2 {
+    font-size: 17px;
+    top: 350px;
+    left: 25px;
+    width: 420px;
+    line-height: 20px;
+  }
+  .wrapper2 {
+    width: 100%;
+  }
+  .wrapper2 .shape {
+    margin-left: 750px;
+  }
+  .wrapper2 .shape2 {
+    margin-top: -250px;
+    margin-left: 100px;
+  }
+  .wrapper2 .wrap1 {
+    display: flex;
+  }
+  .wrapper2 .wrap1 img {
+    width: 500px;
+    margin-top: -150px;
+    padding-left: 50px;
+  }
+  .wrapper2 .wrap1 .cards .p1 {
+    font-size: 17px;
+    margin-left: -100px;
+  }
+  .wrapper2 .wrap1 .cards h1 {
+    font-size: 32px;
+    margin-left: -100px;
+  }
+  .wrapper2 .wrap1 .cards .p2 {
+    font-size: 15px;
+    width: 400px;
+    margin-left: -100px;
+  }
+  .wrapper2 .wrap1 .cards a {
+    text-align: center;
+    display: block;
+    margin-left: -430px;
+  }
+  .wrapper2 .wrap1 .cards a img {
+    display: block;
+    width: 30px;
+    margin-left: 395px;
+    margin-top: -14px;
+  }
+  .wrapper3 {
+    width: 100%;
+  }
+  .wrapper3 .shape2 {
+    margin-left: 790px;
+    width: 400px;
+    height: 400px;
+  }
+  .wrapper3 .shape3 {
+    width: 450px;
+    height: 400px;
+  }
+  .wrapper3 .p1 {
+    font-size: 17px;
+  }
+  .wrapper3 h1 {
+    font-size: 32px;
+  }
+  .wrapper3 .p2 {
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
+  }
+  .wrapper3 .wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding-left: 0px;
+    gap: 20px;
+  }
+  .wrapper3 .wrap2 .card1 {
+    width: 380px;
+  }
+  .wrapper3 .wrap2 .card1 img {
+    padding-left: 160px;
+  }
+  .wrapper4 {
+    width: 100%;
+  }
+  .wrapper4 .cards2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 .p2 {
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
+  }
+  .wrapper4 .wrap3 {
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
+  }
+  .wrapper4 .link {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper4 .link img {
+    display: block;
+    margin-left: 665px;
+    margin-top: -15px;
+  }
+  .wrapper5 {
+    width: 100%;
+  }
+  .wrapper5 img {
+    width: 100%;
+    height: 500px;
+    margin-top: -20px;
+  }
+  .wrapper5 .links {
+    top: 420px;
+    left: 580px;
+    width: 600px;
+  }
+  .wrapper5 .links img {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .wrapper5 .links a {
+    display: block;
+  }
+  .wrapper6 {
+    width: 100%;
+  }
+  .wrapper6 .content2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper6 .content2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper6 .content2 .p2 {
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
+  }
+  .wrapper6 .content2 button {
+    margin-left: 0;
+    font-size: 17px;
+    padding: 8px 16px;
+    margin-left: 540px;
+  }
+  .wrapper7 {
+    width: 100%;
+  }
+  .wrapper7 .p1 {
+    font-size: 17px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 .p2 {
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
+    text-align: center;
+  }
+  .wrapper7 .wrap4 {
+    display: flex;
+    margin-left: 30px;
+  }
+  .wrapper7 .wrap4 .card3 img {
+    width: 550px;
+  }
+  .wrapper7 .wrap4 .card3 p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+  }
+  .wrapper7 .wrap5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper7 .wrap5 .card44 {
+    margin-top: -130px;
+    margin-left: 0px;
+  }
+  .wrapper7 .wrap5 .card444 {
+    margin-top: -130px;
+    margin-left: 27 0px;
+  }
+  .wrapper7 .wrap5 .card4 img {
+    margin-left: -140px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap5 .card4 .text {
+    margin-left: -80px;
+    margin-right: 90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p1 {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: -90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p2 {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  .wrapper7 a {
+    margin-left: -180px;
+  }
+  .wrapper7 a img {
+    display: block;
+    margin-left: 640px;
+    margin-top: -14px;
+  }
+  .wrapper7 .wrap6 {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+  }
+  .wrapper7 .wrap6 .card5 img {
+    width: 450px;
+    height: 450px;
+    margin-left: 100px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap6 .card6 {
+    margin-top: -50px;
+    margin-left: 70px;
+  }
+  .wrapper7 .wrap6 .card6 .p1 {
+    font-size: 17px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap6 .card6 h1 {
+    font-size: 32px;
+    width: 500px;
+    margin-left: 50px;
+  }
+  .wrapper7 .wrap6 .card6 .p2 {
+    font-size: 16px;
+    width: 400px;
+    margin-left: 100px;
+  }
+  .wrapper7 .wrap6 .card6 a {
+    display: block;
+    text-align: center;
+    margin-left: -710px;
+    margin-bottom: 50px;
+  }
+  .wrapper7 .wrap6 .card6 a img {
+    margin-left: 340px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer img {
+    padding-left: 500px;
+    padding-top: 25px;
+  }
+  footer .wrap7 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  footer .wrap7 .card7 {
+    padding-left: 70px;
+  }
+  footer .wrap7 .card8 {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  footer .wrap7 .card8 .p1 {
+    font-size: 17px;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+  footer .wrap7 .card8 .p2 {
+    font-size: 15px;
+    width: 350px;
+    text-align: center;
+    margin-left: 220px;
+  }
+  footer .wrap7 .card8 input {
+    padding-right: 200px;
+    margin-left: 200px;
+  }
+  footer .wrap7 .card8 button {
+    margin-left: -80px;
+  }
+  footer .card9 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .card9 .p3 {
+    margin-left: 10px;
+  }
+  footer .card9 .icons {
+    display: none;
+  }
+  footer .card9 .icons2 {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    padding-right: 50px;
+    gap: 30px;
+  }
+  footer .card9 .icons2 img {
+    margin-left: -500px;
+  }
+}
+@media (min-width: 1201px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .logo {
+    padding-left: 20px;
+  }
+  header ul {
+    display: flex;
+  }
+  header form .b1 {
+    display: block;
+  }
+  header form .b2 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  header article {
+    display: none;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .p1 {
+    font-size: 15px;
+    top: 250px;
+    left: 25px;
+  }
+  .wrapper h1 {
+    font-size: 32px;
+    top: 280px;
+    left: 25px;
+    width: 240px;
+    line-height: 30px;
+  }
+  .wrapper .p2 {
+    font-size: 17px;
+    top: 350px;
+    left: 25px;
+    width: 420px;
+    line-height: 20px;
+  }
+  .wrapper2 {
+    width: 100%;
+  }
+  .wrapper2 .shape {
+    margin-left: 750px;
+  }
+  .wrapper2 .shape2 {
+    margin-top: -250px;
+    margin-left: 100px;
+  }
+  .wrapper2 .wrap1 {
+    display: flex;
+  }
+  .wrapper2 .wrap1 img {
+    width: 500px;
+    margin-top: -150px;
+    padding-left: 50px;
+  }
+  .wrapper2 .wrap1 .cards .p1 {
+    font-size: 17px;
+    margin-left: -100px;
+  }
+  .wrapper2 .wrap1 .cards h1 {
+    font-size: 32px;
+    margin-left: -100px;
+  }
+  .wrapper2 .wrap1 .cards .p2 {
+    font-size: 15px;
+    width: 400px;
+    margin-left: -100px;
+  }
+  .wrapper2 .wrap1 .cards a {
+    text-align: center;
+    display: block;
+    margin-left: -430px;
+  }
+  .wrapper2 .wrap1 .cards a img {
+    display: block;
+    width: 30px;
+    margin-left: 395px;
+    margin-top: -14px;
+  }
+  .wrapper3 {
+    width: 100%;
+  }
+  .wrapper3 .shape2 {
+    margin-left: 790px;
+    width: 400px;
+    height: 400px;
+  }
+  .wrapper3 .shape3 {
+    width: 450px;
+    height: 400px;
+  }
+  .wrapper3 .p1 {
+    font-size: 17px;
+  }
+  .wrapper3 h1 {
+    font-size: 32px;
+  }
+  .wrapper3 .p2 {
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
+  }
+  .wrapper3 .wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding-left: 0px;
+    gap: 20px;
+  }
+  .wrapper3 .wrap2 .card1 {
+    width: 380px;
+  }
+  .wrapper3 .wrap2 .card1 img {
+    padding-left: 160px;
+  }
+  .wrapper4 {
+    width: 100%;
+  }
+  .wrapper4 .cards2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper4 .cards2 .p2 {
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
+  }
+  .wrapper4 .wrap3 {
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
+  }
+  .wrapper4 .link {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper4 .link img {
+    display: block;
+    margin-left: 665px;
+    margin-top: -15px;
+  }
+  .wrapper5 {
+    width: 100%;
+  }
+  .wrapper5 img {
+    width: 100%;
+    height: 500px;
+    margin-top: -20px;
+  }
+  .wrapper5 .links {
+    top: 420px;
+    left: 580px;
+    width: 600px;
+  }
+  .wrapper5 .links img {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .wrapper5 .links a {
+    display: block;
+  }
+  .wrapper6 {
+    width: 100%;
+  }
+  .wrapper6 .content2 .p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .wrapper6 .content2 h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper6 .content2 .p2 {
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
+  }
+  .wrapper6 .content2 button {
+    margin-left: 0;
+    font-size: 17px;
+    padding: 8px 16px;
+    margin-left: 540px;
+  }
+  .wrapper7 {
+    width: 100%;
+  }
+  .wrapper7 .p1 {
+    font-size: 17px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrapper7 .p2 {
+    font-size: 15px;
+    margin-left: 390px;
+    width: 400px;
+    text-align: center;
+  }
+  .wrapper7 .wrap4 {
+    display: flex;
+    margin-left: 30px;
+  }
+  .wrapper7 .wrap4 .card3 img {
+    width: 550px;
+  }
+  .wrapper7 .wrap4 .card3 p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+  }
+  .wrapper7 .wrap5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper7 .wrap5 .card44 {
+    margin-top: -130px;
+    margin-left: 0px;
+  }
+  .wrapper7 .wrap5 .card444 {
+    margin-top: -130px;
+    margin-left: 27 0px;
+  }
+  .wrapper7 .wrap5 .card4 img {
+    margin-left: -140px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap5 .card4 .text {
+    margin-left: -80px;
+    margin-right: 90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p1 {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: -90px;
+  }
+  .wrapper7 .wrap5 .card4 .text .p2 {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  .wrapper7 a {
+    margin-left: -180px;
+  }
+  .wrapper7 a img {
+    display: block;
+    margin-left: 640px;
+    margin-top: -14px;
+  }
+  .wrapper7 .wrap6 {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+  }
+  .wrapper7 .wrap6 .card5 img {
+    width: 450px;
+    height: 450px;
+    margin-left: 100px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap6 .card6 {
+    margin-top: -50px;
+    margin-left: 70px;
+  }
+  .wrapper7 .wrap6 .card6 .p1 {
+    font-size: 17px;
+    padding-left: 0;
+  }
+  .wrapper7 .wrap6 .card6 h1 {
+    font-size: 32px;
+    width: 500px;
+    margin-left: 50px;
+  }
+  .wrapper7 .wrap6 .card6 .p2 {
+    font-size: 16px;
+    width: 400px;
+    margin-left: 100px;
+  }
+  .wrapper7 .wrap6 .card6 a {
+    display: block;
+    text-align: center;
+    margin-left: -710px;
+    margin-bottom: 50px;
+  }
+  .wrapper7 .wrap6 .card6 a img {
+    margin-left: 340px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer img {
+    padding-left: 500px;
+    padding-top: 25px;
+  }
+  footer .wrap7 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  footer .wrap7 .card7 {
+    padding-left: 70px;
+  }
+  footer .wrap7 .card8 {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  footer .wrap7 .card8 .p1 {
+    font-size: 17px;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+  footer .wrap7 .card8 .p2 {
+    font-size: 15px;
+    width: 350px;
+    text-align: center;
+    margin-left: 220px;
+  }
+  footer .wrap7 .card8 input {
+    padding-right: 200px;
+    margin-left: 200px;
+  }
+  footer .wrap7 .card8 button {
+    margin-left: -80px;
+  }
+  footer .card9 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .card9 .p3 {
+    margin-left: 10px;
+  }
+  footer .card9 .icons {
+    display: none;
+  }
+  footer .card9 .icons2 {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    padding-right: 50px;
+    gap: 30px;
+  }
+  footer .card9 .icons2 img {
+    margin-left: -500px;
+  }
 }/*# sourceMappingURL=style.css.map */
